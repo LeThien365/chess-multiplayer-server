@@ -1,0 +1,21 @@
+{
+  "name": "chess-multiplayer-server",
+  "version": "1.0.0",
+  "description": "Server multiplayer cho app co vua/co tuong - phong, matchmaking, Elo, dong bo nuoc di real-time",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "engines": {
+    "node": "20.18.1"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
+    "better-sqlite3": "^11.3.0",
+    "cors": "^2.8.5",
+    "nanoid": "^3.3.7"
+  }
+}
